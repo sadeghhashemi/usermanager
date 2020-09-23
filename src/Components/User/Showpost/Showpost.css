@@ -1,0 +1,17 @@
+.post-box{
+    padding: 8px 15px;
+ 
+}    
+    
+.post-box h1{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(241, 245, 9);
+    margin: 5px;
+    display: inline;
+}
+.post-box{
+    font-size: 18px;
+    font-weight: bold;
+}
+
