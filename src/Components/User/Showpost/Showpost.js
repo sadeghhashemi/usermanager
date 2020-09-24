@@ -1,8 +1,5 @@
 import React from "react";
-import "./Showpost.css";
-// import Students from "./Components/Students/Students";
-// import Wellcom from "./Components/Wellcom/Wellcom";
-// // import Logo from "../public/Logo.png"
+// import "./Showpost.css";
 
 class Showpost extends React.Component {
   constructor(props) {
@@ -10,14 +7,23 @@ class Showpost extends React.Component {
   }
 
   render() {
-    return <div className="post-box">
-       <h1>{this.props.title}</h1>
-       <p>{this.props.body}</p>
-       <div className="comment-box">
-         <button className="btn btn-danger btn-sm">Comments</button>
-       </div>
-    </div>;
+    return (
+      <div className="card my-2 p-2">
+        <div className="card-title">
+          <h5>{this.props.title}</h5>
+        </div>
+        <div className="card-body">
+          <p>{this.props.body}</p>
+          <button className="btn btn-danger btn-sm ">Comments</button>
+        </div>
+      </div>
+    );
   }
 }
 
 export default Showpost;
+//  <h1></h1>
+//
+//        <div className="comment-box justify-content-center">
+//
+//        </div>

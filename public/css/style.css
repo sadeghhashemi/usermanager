@@ -1,10 +1,10 @@
 body {
     margin: 0;
     font-family: "BYekan" !important;
-    background: url("../imgs/bg1.jpg") no-repeat center center fixed;
+    background: url("../imgs/bg4.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    direction: rtl;
+    direction: ltr;
 }

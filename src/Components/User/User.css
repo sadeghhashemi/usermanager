@@ -1,5 +1,6 @@
 .user-box {
-    text-align: left;
+    /* text-align: left; */
+    direction: ltr;
     border: 1px solid slategray;
     border-radius: 10px;
     background-color: rgba(145, 146, 182, 0.752);

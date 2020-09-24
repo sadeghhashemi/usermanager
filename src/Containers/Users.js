@@ -1,5 +1,5 @@
 import React from "react";
-import "./Users.css";
+// import "./Users.css";
 import User from "../Components/User/User";
 import axios from "axios";
 import Loading from "../Components/Loading/Loading";
@@ -34,7 +34,7 @@ export default class Students extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="users">
         {
           this.state.userList !== null
           ?this.state.userList.map((userList)=>{
